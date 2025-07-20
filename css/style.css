@@ -37,7 +37,7 @@ body {
           backdrop-filter: blur(12px);
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-image: url("./images/bg1.png");
+  background-image: url("/images/bg1.png");
   background-size: cover;
   background-position: center;
   padding: 28px;
@@ -56,7 +56,7 @@ body {
   transform: scale(1.05) rotate(0.2deg);
 }
 .container.bg-1 {
-  background-image: url("./images/bg1.png");
+  background-image: url("/images/bg1.png");
   color: #ffffff;
 }
 .container.bg-1 h5,
@@ -64,7 +64,7 @@ body {
   text-shadow: none;
 }
 .container.bg-2 {
-  background-image: url("./images/bg2.png");
+  background-image: url("/images/bg2.png");
   color: black;
 }
 .container.bg-2 h5,
@@ -73,7 +73,7 @@ body {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8), 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .container.bg-3 {
-  background-image: url("./images/bg3.png");
+  background-image: url("/images/bg3.png");
   color: rgb(255, 0, 0);
 }
 .container.bg-3 h5,
@@ -82,7 +82,7 @@ body {
   text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.8), 0 0 5px rgba(255, 0, 0, 0.5);
 }
 .container.bg-4 {
-  background-image: url("./images/bg4.png");
+  background-image: url("/images/bg4.png");
   color: #ffffff;
 }
 .container.bg-4 h5,
@@ -90,7 +90,7 @@ body {
   text-shadow: none;
 }
 .container.bg-5 {
-  background-image: url("./images/bg5.png");
+  background-image: url("/images/bg5.png");
   color: #ffffff;
 }
 .container.bg-5 h5,
