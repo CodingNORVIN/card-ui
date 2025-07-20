@@ -32,7 +32,7 @@ const buttons = document.querySelectorAll('.card-style-toggle button');
 
 buttons.forEach(button => {
   button.addEventListener('click', () => {
-    container.classList.remove('bg-1', 'bg-2', 'bg-3', 'bg-4', 'bg-5');
+    container.classList.remove('bg1', 'bg2', 'bg3', 'bg4', 'bg5');
     container.classList.add(button.dataset.bg);
   });
 });
