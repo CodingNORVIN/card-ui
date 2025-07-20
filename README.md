@@ -1,4 +1,3 @@
-# card-ui
 
 A simple card UI project built with semantic HTML, SCSS, and JavaScript.
 
@@ -27,9 +26,10 @@ A simple card UI project built with semantic HTML, SCSS, and JavaScript.
 ## Demo
 
 <p align="center">
-  <img src="![image1](image1)" alt="Repo UI Preview" />
+  <img src="https://github.com/user-attachments/assets/bdc7a1bd-d3a3-4794-b5c1-8f702d360555" alt="Repo UI Preview" />
 </p>
 
 ## License
 
-MIT © nor1vin
+MIT © nor1vin!
+
