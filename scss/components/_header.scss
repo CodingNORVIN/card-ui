@@ -1,0 +1,27 @@
+header,
+.logo {
+  @include center-flex;
+  justify-content: space-between;
+}
+
+.logo {
+  img {
+    width: 48px;
+    margin-right: 12px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+  }
+}
+
+header .chip {
+  width: 56px;
+  animation: floatChip 3s ease-in-out infinite alternate;
+}
+
+@keyframes floatChip {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}

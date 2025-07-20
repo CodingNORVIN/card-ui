@@ -1,0 +1,45 @@
+.card-details {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  animation: fadeInUp 0.8s ease-in 0.3s backwards;
+}
+
+h5,
+h6 {
+  color: $text-white;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  @include text-glow;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+h6 {
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: $text-accent;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+}
+
+h5.number {
+  margin-top: 6px;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+}
+
+h5.name {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  font-style: italic;
+}

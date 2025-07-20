@@ -1,0 +1,82 @@
+.container {
+  position: relative;
+  @include glass-bg;
+  background-image: url("/images/bg1.png"); // default bg image
+  background-size: cover;
+  background-position: center;
+  padding: $card-padding;
+  border-radius: $card-radius;
+  max-width: $card-max-width;
+  width: 100%;
+  box-shadow: $card-shadow;
+  transition: transform 0.3s ease-in-out, background-image 0.5s ease-in-out,
+    color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInUp $fade-speed ease-in;
+  margin-left: 500px;
+  color: $text-white; // default text color
+
+  &:hover {
+    transform: scale($hover-scale) rotate(0.2deg);
+  }
+
+  &.bg-1 {
+    background-image: url("/images/bg1.png");
+    color: $text-white;
+
+    h5,
+    h6 {
+      text-shadow: none;
+    }
+  }
+
+  &.bg-2 {
+    background-image: url("/images/bg2.png");
+    color: black;
+
+    h5,
+    h6 {
+      color: black;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8),
+        0 0 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &.bg-3 {
+    background-image: url("/images/bg3.png");
+    color: rgb(255, 0, 0);
+
+    h5,
+    h6 {
+      color: rgb(255, 0, 0);
+      text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.8),
+        0 0 5px rgba(255, 0, 0, 0.5);
+    }
+  }
+
+  &.bg-4 {
+    background-image: url("/images/bg4.png");
+    color: $text-white;
+
+    h5,
+    h6 {
+      text-shadow: none;
+    }
+  }
+
+  &.bg-5 {
+    background-image: url("/images/bg5.png");
+    color: $text-white;
+
+    h5,
+    h6 {
+      text-shadow: none;
+    }
+  }
+
+  h5,
+  h6 {
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+}

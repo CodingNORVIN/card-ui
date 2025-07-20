@@ -1,0 +1,38 @@
+// Global base styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+
+body {
+  min-height: 100vh;
+  @include center-flex;
+  background: linear-gradient(
+    270deg,
+    nth($gradient-colors, 1),
+    nth($gradient-colors, 2),
+    nth($gradient-colors, 3),
+    nth($gradient-colors, 4)
+  );
+  background-size: $background-size;
+  animation: bg-move $animation-duration ease infinite;
+  padding: 16px;
+  color: $text-accent;
+  transition: background 0.5s ease-in-out;
+  overflow-x: hidden;
+}
+
+@keyframes bg-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,18 @@
+// Centering flex container
+@mixin center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Glowing text effect
+@mixin text-glow($color: $text-glow) {
+  text-shadow: 0 0 6px $color, 0 0 10px $color;
+}
+
+// Glassmorphism background
+@mixin glass-bg {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

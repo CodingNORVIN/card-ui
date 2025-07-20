@@ -1,0 +1,27 @@
+.card-style-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: $text-white;
+    padding: 0.4rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    backdrop-filter: blur(6px);
+    font-family: $font-primary;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: scale(1.05);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

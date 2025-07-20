@@ -1,0 +1,25 @@
+// Variables for colors, typography, animation, layout, breakpoints
+
+// background gradient
+$gradient-colors: (#ff7e5f, #feb47b, #86a8e7, #91eae4);
+
+// typography
+$font-primary: "Poppins", sans-serif;
+$text-white: #ffffff;
+$text-accent: #f3f4f6;
+$text-glow: rgba(255, 255, 255, 0.8);
+
+// animation
+$animation-duration: 20s;
+$background-size: 800% 800%;
+$fade-speed: 0.5s;
+$hover-scale: 1.05;
+
+// layout
+$card-max-width: 400px;
+$card-padding: 28px;
+$card-radius: 24px;
+$card-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+// breakpoints
+$breakpoint-sm: 480px;
