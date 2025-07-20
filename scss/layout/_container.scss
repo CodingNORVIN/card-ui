@@ -1,7 +1,7 @@
 .container {
   position: relative;
   @include glass-bg;
-  background-image: url("/images/bg1.png"); // default bg image
+  background-image: url("./images/bg1.png"); 
   background-size: cover;
   background-position: center;
   padding: $card-padding;
@@ -22,7 +22,7 @@
   }
 
   &.bg-1 {
-    background-image: url("/images/bg1.png");
+    background-image: url("./images/bg1.png");
     color: $text-white;
 
     h5,
@@ -32,7 +32,7 @@
   }
 
   &.bg-2 {
-    background-image: url("/images/bg2.png");
+    background-image: url("./images/bg2.png");
     color: black;
 
     h5,
@@ -44,7 +44,7 @@
   }
 
   &.bg-3 {
-    background-image: url("/images/bg3.png");
+    background-image: url("./images/bg3.png");
     color: rgb(255, 0, 0);
 
     h5,
@@ -56,7 +56,7 @@
   }
 
   &.bg-4 {
-    background-image: url("/images/bg4.png");
+    background-image: url("./images/bg4.png");
     color: $text-white;
 
     h5,
@@ -66,7 +66,7 @@
   }
 
   &.bg-5 {
-    background-image: url("/images/bg5.png");
+    background-image: url("./images/bg5.png");
     color: $text-white;
 
     h5,
