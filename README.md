@@ -31,5 +31,5 @@ A simple card UI project built with semantic HTML, SCSS, and JavaScript.
 
 ## License
 
-MIT © nor1vin!
+MIT © CodingNORVIN!
 
